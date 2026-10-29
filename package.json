@@ -1,12 +1,20 @@
 {
   "name": "@pipeworx/mcp-seo-competitors",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "SEO Competitors MCP — domain ranked keywords via DataForSEO Labs (dataforseo.com)",
   "type": "module",
-  "main": "src/index.ts",
-  "types": "src/index.ts",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./tools.json": "./tools.json",
+    "./package.json": "./package.json"
+  },
   "bin": {
     "mcp-seo-competitors": "bin/cli.js"
+  },
+  "files": ["bin/", "lib/", "tools.json", "server.json"],
+  "engines": {
+    "node": ">=18"
   },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "seo-competitors"],
   "license": "MIT",
@@ -14,19 +22,12 @@
     "type": "git",
     "url": "git+https://github.com/pipeworx-io/mcp-seo-competitors.git"
   },
-  "scripts": {
-    "typecheck": "tsc --noEmit"
-  },
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.30.0",
-    "tsx": "^4.19.0"
-  },
-  "devDependencies": {
-    "typescript": "^5.9.3",
-    "@cloudflare/workers-types": "^4.20260405.1"
-  },
+  "mcpName": "io.github.pipeworx-io/seo-competitors",
   "pipeworx": {
-    "sourceHash": "v1-abff13c5280b2a92464dc1ea9a86e196495961a321ba24176b11088f86e70a44",
-    "sourceCommit": "d4a9636716f113458bd312e487c065f76548df8c"
+    "mode": "gateway",
+    "slug": "seo-competitors",
+    "gatewaySlug": "seo-competitors",
+    "sourceHash": "v1-82f0d98c0840b16869ed7358bbde2f99bae8ea09fe7fdb300d973eb627ba0c9d",
+    "sourceCommit": "f47d581679e1e887373df51ba623f891fbe4c464"
   }
 }

@@ -1,0 +1,39 @@
+[
+  {
+    "name": "seo_domain_ranked_keywords",
+    "description": "What keywords does `<domain>` rank for — returns the keywords a domain ranks for in Google organic, with search volume, current rank, and ranking URL. Competitor SEO intelligence. Example: seo_domain_ranked_keywords({ target: \"nike.com\", location_code: 2840, limit: 50, _apiKey: \"your-base64-key\" })",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "target": {
+          "type": "string",
+          "description": "Domain to analyze (no protocol), e.g. \"nike.com\""
+        },
+        "location_code": {
+          "type": "integer",
+          "description": "DataForSEO location code (default 2840 = United States)"
+        },
+        "language_code": {
+          "type": "string",
+          "description": "Two-letter language code (default \"en\")"
+        },
+        "limit": {
+          "type": "integer",
+          "description": "Max keywords to return (default 20, max 100)"
+        },
+        "order_by": {
+          "type": "string",
+          "description": "Optional sort, e.g. \"keyword_data.keyword_info.search_volume,desc\""
+        },
+        "_apiKey": {
+          "type": "string",
+          "description": "DataForSEO API key = base64(\"login:password\") from your dataforseo.com account"
+        }
+      },
+      "required": [
+        "target",
+        "_apiKey"
+      ]
+    }
+  }
+]
