@@ -1,7 +1,7 @@
 [
   {
     "name": "seo_domain_ranked_keywords",
-    "description": "What keywords does `<domain>` rank for — returns the keywords a domain ranks for in Google organic, with search volume, current rank, and ranking URL. Competitor SEO intelligence. Example: seo_domain_ranked_keywords({ target: \"nike.com\", location_code: 2840, limit: 50, _apiKey: \"your-base64-key\" })",
+    "description": "What keywords does `<domain>` rank for — returns the keywords a domain ranks for in Google organic, with search volume, current rank, and ranking URL. Competitor SEO intelligence. Example: seo_domain_ranked_keywords({ target: \"nike.com\", location_code: 2840, limit: 50 })",
     "inputSchema": {
       "type": "object",
       "properties": {

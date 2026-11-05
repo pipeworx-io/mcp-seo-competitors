@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-seo-competitors",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "SEO Competitors MCP — domain ranked keywords via DataForSEO Labs (dataforseo.com)",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "seo-competitors",
     "gatewaySlug": "seo-competitors",
-    "sourceHash": "v1-82f0d98c0840b16869ed7358bbde2f99bae8ea09fe7fdb300d973eb627ba0c9d",
-    "sourceCommit": "f47d581679e1e887373df51ba623f891fbe4c464"
+    "sourceHash": "v1-aff8ac9cfd7e81151b2b083dc4d80a48375560dd23609317d3028b1d7e3599fa",
+    "sourceCommit": "8fc802aa5e23be625ce08d97178f5676c7bc93f3"
   }
 }

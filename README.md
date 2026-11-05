@@ -2,13 +2,13 @@
 
 SEO Competitors MCP — domain ranked keywords via DataForSEO Labs (dataforseo.com)
 
-Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 1857+ live data sources. This is an independent, unofficial integration — not affiliated with, endorsed by, or published by the upstream provider.
+Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 1866+ live data sources. This is an independent, unofficial integration — not affiliated with, endorsed by, or published by the upstream provider.
 
 ## Tools
 
 | Tool | Description |
 |------|-------------|
-| `seo_domain_ranked_keywords` | What keywords does `<domain>` rank for — returns the keywords a domain ranks for in Google organic, with search volume, current rank, and ranking URL. Competitor SEO intelligence. Example: seo_domain_ranked_keywords({ target: "nike.com", location_code: 2840, limit: 50, _apiKey: "your-base64-key" }) |
+| `seo_domain_ranked_keywords` | What keywords does `<domain>` rank for — returns the keywords a domain ranks for in Google organic, with search volume, current rank, and ranking URL. Competitor SEO intelligence. Example: seo_domain_ranked_keywords({ target: "nike.com", location_code: 2840, limit: 50 }) |
 
 ## Quick Start
 
@@ -54,7 +54,7 @@ directly, instead of just this one's:
 }
 ```
 
-Both URLs reach the same gateway and the same 1857+ data sources. The
+Both URLs reach the same gateway and the same 1866+ data sources. The
 only difference is which pack's tools are listed **directly**; `ask_pipeworx`
 reaches all of them from either one.
 
